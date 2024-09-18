@@ -58,19 +58,19 @@ export default function LandingPage() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col bg-[#F5F5F9] py-20">
-                <div className="flex flex-row justify-between items-start mx-32 ">
+            <div className="flex flex-col bg-[#F5F5F9] py-[96px] ps-[112px]">
+                <div className="flex flex-row justify-between items-start ">
                     <div>
                         <h1 className="text-[#A39159] font-tiempos-head font-medium text-[36px]">Our Services</h1>
                         <p className="max-w-[592px] text-[#29304A] mt-2 font-tiempos-text">A leading provider of Trust and Estate, Wealth Management, <br />and Financial Planning services throughout the State, CGT also <br />serves clients nationwide and internationally.</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <button className="border border-black px-5 py-2 font-bold font-poppins text-black">
                             LEARN MORE
                         </button>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="ms-32 mt-5">
+                <div className="my-[60px]">
                     <div className="w-full overflow-hidden relative">
                         <div className="flex space-x-4 overflow-x-auto scroll-smooth scroll-hidden" id="sliderItemArea">
                             <div
