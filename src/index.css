@@ -53,7 +53,7 @@
   background-size: cover;  /* Ensures the image covers the whole width without stretching */
   background-position: center center;  /* Keeps the image centered */
   background-repeat: no-repeat; /* Prevents tiling of the image */
-  min-height: 600px; /* Your specified height */
+  min-height: 738px; /* Your specified height */
   width: 100%; /* Occupies 100% of the screen width */
 }
 

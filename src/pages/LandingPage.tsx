@@ -53,8 +53,8 @@ export default function LandingPage() {
                         <p className="text-[45px] text-gray-200 max-w-[700px] leading-[60px] font-tiempos-head font-medium">
                             We are the largest independent <br /> and privately held trust company <br /> headquartered in South Florida.</p>
                         <p className="font-neue-grotesk text-md text-white">Please pardon the inconvenience while we are constructing and rolling out our new website.</p>
-                        <button
-                            className="border border-white px-5 py-2 font-bold text-white font-neue-grotesk">MORE ABOUT US</button>
+                        {/* <button
+                            className="border border-white px-5 py-2 font-bold text-white font-neue-grotesk hover:bg-white hover:text-[]">MORE ABOUT US</button> */}
                     </div>
                 </div>
             </div>
