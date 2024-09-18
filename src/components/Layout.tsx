@@ -1,8 +1,8 @@
 import CGTrustLogo from "../assets/CGTrustLogo.svg"
 import ClientLoginIcon from "../assets/icons/ClientLoginIcon.svg"
-import ContactIcon from "../assets/icons/Contact.svg"
-import SearchIcon from "../assets/icons/Search.svg"
-import SpanishIcon from "../assets/icons/Spanish.svg"
+// import ContactIcon from "../assets/icons/Contact.svg"
+// import SearchIcon from "../assets/icons/Search.svg"
+// import SpanishIcon from "../assets/icons/Spanish.svg"
 
 export default function Layout() {
     return (
