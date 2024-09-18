@@ -72,52 +72,52 @@ export default function LandingPage() {
                 </div>
                 <div className="ms-32 mt-5">
                     <div className="w-full overflow-hidden relative">
-                        <div className="flex space-x-4 overflow-x-auto scroll-smooth no-scrollbar" id="sliderItemArea">
+                        <div className="flex space-x-4 overflow-x-auto scroll-smooth scroll-hidden" id="sliderItemArea">
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#2C3342] flex justify-start items-end text-white">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304A] flex justify-start items-end text-white">
                                 <h1 className="ps-[24px] pb-[20px] pe-[60px]">
                                     Trust & Estate <br />Planning
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#3B4253] flex justify-start items-end text-white">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304ACC] flex justify-start items-end text-white">
                                 <h1 className="ps-[24px] pb-[20px] pe-[60px]">
                                     Investment <br />Management
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#4A4F59] flex justify-start items-end text-white">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304A99] flex justify-start items-end text-white">
                                 <h1 className="ps-[24px] pb-[20px] pe-[60px]">
                                     Directed <br />Trusts
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#5A5E64] flex justify-start items-end text-white">
-                                <h1 className="ps-[24px] pb-[20px] pe-[60px]">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304A66] flex justify-start items-end text-white">
+                                <h1 className="ps-[24px] pb-[20px] pe-[60px] text-[#29304A]">
                                     Special Needs <br />Trust
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#6B6E73] flex justify-start items-end text-white">
-                                <h1 className="ps-[24px] pb-[20px] pe-[60px]">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304a40] flex justify-start items-end text-white">
+                                <h1 className="ps-[24px] pb-[20px] pe-[60px] text-[#29304A]">
                                     Financial <br />Planning
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#7C838C] flex justify-start items-end text-white">
-                                <h1 className="ps-[24px] pb-[20px] pe-[60px]">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304A33] flex justify-start items-end text-white">
+                                <h1 className="ps-[24px] pb-[20px] pe-[60px] text-[#29304A]">
                                     Escrow <br />Services
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#8A9098] flex justify-start items-end text-white">
-                                <h1 className="ps-[24px] pb-[20px] pe-[60px]">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304A33] flex justify-start items-end text-white">
+                                <h1 className="ps-[24px] pb-[20px] pe-[60px] text-[#29304A]">
                                     Cash <br />Management
                                 </h1>
                             </div>
                             <div
-                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#9AA0A8] flex justify-start items-end text-white">
-                                <h1 className="ps-[24px] pb-[20px] pe-[60px]">
+                                className="min-w-[300px] h-[135px] text-[24px] font-tiempos-head bg-[#29304A33] flex justify-start items-end text-white">
+                                <h1 className="ps-[24px] pb-[20px] pe-[60px] text-[#29304A]">
                                     Estate Settlement <br />Services
                                 </h1>
                             </div>

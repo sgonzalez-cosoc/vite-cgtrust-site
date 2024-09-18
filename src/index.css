@@ -56,3 +56,12 @@
   min-height: 600px; /* Your specified height */
   width: 100%; /* Occupies 100% of the screen width */
 }
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on WebKit browsers (Chrome, Safari) */
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
