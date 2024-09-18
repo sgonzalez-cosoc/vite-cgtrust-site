@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react"
+
 import { Link } from "react-router-dom"
 
 export default function Footer() {
@@ -15,23 +15,23 @@ export default function Footer() {
           <p className="text-sm font-tiempos-text text-[#98A2B3]">Connect with Us</p>
           <div className="flex justify-center items-center space-x-6">
             <Link to="#" className="hover:opacity-80 transition-opacity">
-              <Linkedin className="w-6 h-6 text-[#98A2B3]" />
+              <img src="/src/assets/icons/social-icons/LinkedIn.svg" className="w-[36px] h-[36px]" />
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link to="#" className="hover:opacity-80 transition-opacity">
-              <Facebook className="w-6 h-6 text-[#98A2B3]" />
+              <img src="/src/assets/icons/social-icons/Facebook.svg" className="w-[36px] h-[36px]" />
               <span className="sr-only">Facebook</span>
             </Link>
             <Link to="#" className="hover:opacity-80 transition-opacity">
-              <Twitter className="w-6 h-6 text-[#98A2B3]" />
+              <img src="/src/assets/icons/social-icons/X.svg" className="w-[36px] h-[36px]" />
               <span className="sr-only">Twitter</span>
             </Link>
             <Link to="#" className="hover:opacity-80 transition-opacity">
-              <Instagram className="w-6 h-6 text-[#98A2B3]" />
+              <img src="/src/assets/icons/social-icons/Instagram.svg" className="w-[36px] h-[36px]" />
               <span className="sr-only">Instagram</span>
             </Link>
             <Link to="#" className="hover:opacity-80 transition-opacity">
-              <Youtube className="w-6 h-6 text-[#98A2B3]" />
+              <img src="/src/assets/icons/social-icons/Youtube.svg" className="w-[36px] h-[36px]" />
               <span className="sr-only">YouTube</span>
             </Link>
           </div>
