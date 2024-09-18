@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Tiempos-Headline';
-  src: url('./assets/fonts/TiemposHeadline/WOFF2/tiempos-headline-web-medium-italic.woff2') format('woff2');
+  src: url('../assets/fonts/TiemposHeadline/WOFF2/tiempos-headline-web-medium-italic.woff2') format('woff2');
   font-weight: 500;
   font-style: italic;
 }
@@ -46,4 +46,13 @@
 
 :root {
   color: white;
+}
+
+.bg-hero-pattern {
+  background-image: url('../src/assets/Hero.jpg');
+  background-size: cover;  /* Ensures the image covers the whole width without stretching */
+  background-position: center center;  /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  min-height: 600px; /* Your specified height */
+  width: 100%; /* Occupies 100% of the screen width */
 }

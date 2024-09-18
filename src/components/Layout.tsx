@@ -11,12 +11,12 @@ export default function Layout() {
                 <img src={CGTrustLogo} alt='logo' className='w-44 h-16'></img>
             </div>
             <div className='flex gap-10'>
-                <a href="">OUR SERVICES</a>
-                <a href="">ABOUT US</a>
-                <a href="">RESOURCES</a>
+                <a href="" className="font-tiempos-text font-medium">OUR SERVICES</a>
+                <a href="" className="font-tiempos-text font-medium">ABOUT US</a>
+                <a href="" className="font-tiempos-text font-medium">RESOURCES</a>
             </div>
-            <div className='flex gap-8'>
-                <div className='flex gap-5 items-center'>
+            <div className='flex gap-10'>
+                <div className='flex gap-8 items-center'>
                     <a href="">
                         <img
 
@@ -43,12 +43,12 @@ export default function Layout() {
                     </a>
                 </div>
                 <div>
-                    <button className='border border-white px-6 py-2 flex gap-5 items-center'>
+                    <button className='border border-white px-4 py-2 flex gap-5 items-center font-neue-grotesk font-medium'>
                         <img
 
                             src={ClientLoginIcon}
                             alt="Follow us on Twitter"
-                            className='w-6 h-6'
+                            className='w-5 h-5'
                         />
                         Client Login</button>
                 </div>

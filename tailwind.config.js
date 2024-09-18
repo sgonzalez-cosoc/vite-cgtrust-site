@@ -5,11 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'hero-pattern': "url('/src/assets/Hero.jpg')",
-      }
-    },
+    extend: {},
     fontFamily: {
       'tiempos-text': ['Tiempos-Text', 'sans-serif'],
       'tiempos-head': ['Tiempos-Headline', 'sans-serif'],

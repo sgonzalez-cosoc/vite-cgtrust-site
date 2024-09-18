@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
 import Layout from './components/Layout'
 import LandingPage from './pages/LandingPage'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage />} />
       </Routes>
+      <Footer />
     </>
   )
 }

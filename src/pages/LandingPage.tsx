@@ -52,6 +52,7 @@ export default function LandingPage() {
 
                         <p className="text-[45px] text-gray-200 max-w-[700px] leading-[60px] font-tiempos-head font-medium">
                             We are the largest independent <br /> and privately held trust company <br /> headquartered in South Florida.</p>
+                        <p className="font-neue-grotesk text-md text-white">Please pardon the inconvenience while we are constructing and rolling out our new website.</p>
                         <button
                             className="border border-white px-5 py-2 font-bold text-white font-neue-grotesk">MORE ABOUT US</button>
                     </div>
@@ -61,7 +62,7 @@ export default function LandingPage() {
                 <div className="flex flex-row justify-between items-start mx-32 ">
                     <div>
                         <h1 className="text-[#A39159] font-tiempos-head font-medium text-[36px]">Our Services</h1>
-                        <p className="max-w-[592px] text-[#29304A] mt-2">A leading provider of Trust and Estate, Wealth Management, <br />and Financial Planning services throughout the State, CGT also <br />serves clients nationwide and internationally.</p>
+                        <p className="max-w-[592px] text-[#29304A] mt-2 font-tiempos-text">A leading provider of Trust and Estate, Wealth Management, <br />and Financial Planning services throughout the State, CGT also <br />serves clients nationwide and internationally.</p>
                     </div>
                     <div>
                         <button className="border border-black px-5 py-2 font-bold font-poppins text-black">
@@ -149,7 +150,7 @@ export default function LandingPage() {
 
                 </div>
             </div>
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
                 <div className="grid grid-cols-2 pt-[96px] gap-[96px] items-center">
                     <div>
                         <img src="/media/StocksImage.svg" alt="stockImage" />
@@ -191,8 +192,8 @@ export default function LandingPage() {
                         <img src="/media/StocksImage.svg" alt="stockImage" />
                     </div>
                 </div>
-            </div>
-            <div className="bg-[#ECEBF3] flex items-center justify-center">
+            </div> */}
+            {/* <div className="bg-[#ECEBF3] flex items-center justify-center">
                 <div className="flex justify-between min-w-[85%] my-[72px]">
                     <div>
                         <h1 className="text-[#A39159] font-head_tiempos_med text-[36px]">Sign up for expert commentary</h1>
@@ -208,7 +209,7 @@ export default function LandingPage() {
                             policy</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
