@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import CGTrustLogo from "../assets/CGTrustLogo.svg"
 import ClientLoginIcon from "../assets/icons/ClientLoginIcon.svg"
 // import ContactIcon from "../assets/icons/Contact.svg"
@@ -53,20 +54,32 @@ export default function Layout() {
         //         </div>
         //     </div>
         // </div>
-
-        <div className='bg-[rgb(41,48,74)] flex justify-between items-center min-h-[60px] sm:min-h-[80px] md:min-h-[94px] px-4 sm:px-6 md:px-[70px] py-2 sm:py-3 md:py-[16px]'>
-            <div className="flex-shrink-0">
-                <img src={CGTrustLogo} alt='logo' className='w-24 h-9 sm:w-32 sm:h-12 md:w-44 md:h-16' />
-            </div>
-            <div>
-                <button className='border border-white px-2 sm:px-3 md:px-4 py-1 sm:py-2 flex gap-2 sm:gap-3 md:gap-5 items-center font-neue-grotesk text-xs sm:text-sm md:text-base font-medium text-white whitespace-nowrap'>
+        <div className="bg-[rgb(41,48,74)] flex justify-center w-full">
+            <div className="w-full max-w-[1280px] flex justify-between items-center min-h-[60px] sm:min-h-[80px] md:min-h-[94px] px-4 sm:px-6 md:px-[70px] py-2 sm:py-3 md:py-[16px]">
+                <div className="flex-shrink-0">
                     <img
-                        src={ClientLoginIcon}
-                        alt="Client Login Icon"
-                        className='w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5'
+                        src={CGTrustLogo}
+                        alt="logo"
+                        width={176}
+                        height={64}
+                        className="w-24 h-9 sm:w-32 sm:h-12 md:w-44 md:h-16"
                     />
-                    Client Login
-                </button>
+                </div>
+                <div>
+                    <Link
+                        to="https://innovue21.innovestsystems.com/r4.1prod/to3/LogOn"
+                        className="border border-white px-2 sm:px-3 md:px-4 py-1 sm:py-2 flex gap-2 sm:gap-3 md:gap-5 items-center font-neue-grotesk text-xs sm:text-sm md:text-base font-medium text-white whitespace-nowrap"
+                    >
+                        <img
+                            src={ClientLoginIcon}
+                            alt="Client Login Icon"
+                            width={20}
+                            height={20}
+                            className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5"
+                        />
+                        Client Login
+                    </Link>
+                </div>
             </div>
         </div>
     )
